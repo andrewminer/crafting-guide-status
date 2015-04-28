@@ -1,2 +1,3 @@
 # crafting-guide-status
-Maintenance website for Crafting Guide
+
+Status website for [Crafting Guide](http://crafting-guide.com) in case maintenance requires the site be down for any length of time.

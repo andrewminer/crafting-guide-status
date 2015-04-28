@@ -1,0 +1,78 @@
+a, abbr, acronym, address, applet, article, aside, audio, b, big, blockquote, body, canvas, caption, center, cite, code, dd, del, details, dfn, dialog, div, dl, dt, em, embed, fieldset, figcaption, figure, font, footer, form, h1, h2, h3, h4, h5, h6, header, hgroup, hr, html, i, iframe, img, ins, kbd, label, legend, li, mark, menu, meter, nav, object, ol, output, p, pre, progress, q, rp, rt, ruby, s, samp, section, small, span, strike, strong, sub, summary, sup, table, tbody, td, textarea, tfoot, th, thead, time, td, tr, tt, u, ul, var, video, xmp {
+  border: 0;
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+
+html, body {
+  height: 100%; }
+
+img {
+  color: transparent;
+  vertical-align: middle;
+  -ms-interpolation-mode: bicubic; }
+
+@font-face {
+  font-family: 'Silkscreen';
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/silkscreen.ttf") format("truetype"); }
+
+.content {
+  background: rgba(230, 230, 230, 0.9);
+  box-shadow: 10px 10px 20px #666;
+  margin: 2em auto;
+  max-width: 96em;
+  position: relative;
+  width: 100%; }
+
+ body {
+  background: #AAC9FF url("../images/ice.png");
+  font-size: 10px; }
+
+h1 {
+  margin-bottom: 1em; }
+  h1 > * {
+    display: inline-block;
+    vertical-align: middle; }
+  h1 img {
+    height: 6.4em;
+    width: 6.4em;
+    margin-right: 1em; }
+  h1 p {
+    font-family: "Silkscreen";
+    font-size: 4em; }
+  h1.name {
+    font-family: "Silkscreen";
+    font-size: 3em;
+    margin: 0; }
+
+  .view__footer .divider {
+    position: relative;
+    height: 3.2em;
+    width: 100%;
+    clear: both; }
+  .view__footer .divider.bottom {
+    background: #0A0A0A url("../images/bedrock.png"); }
+
+.view__header {
+  background: #CCCCCC;
+  position: relative;
+  height: 8em;
+  margin-top: 3.2em; }
+  .view__header h1 {
+    position: relative;
+    top: -1.6em;
+    left: -1.6em; }
+    .view__header h1 p {
+      position: relative;
+      top: 0.2em; }
+  .view__header .divider {
+    background: #7A7A7A url("../images/stone_brick.png");
+    position: absolute;
+    bottom: 0em;
+    height: 3.2em;
+    width: 100%; }
